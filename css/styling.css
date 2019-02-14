@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'countrysideregular';
+    src: url('./fonts/countrysidepersonaluse-webfont.woff2') format('woff2'),
+         url('./fonts/countrysidepersonaluse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: #fafad2;
+  background: url("../images/goldengatesunset.jpg") no-repeat fixed;
+  background-size: 100% 100%;
+}
+
+#top {
+  font-family: 'countrysideregular', cursive;
+  font-size: 72px;
+}
+
+img {
+  border: 6px solid white;
+}
+
+.content {
+  display: inline-block;
+  text-align: center;
+  color: #b8860b;
+  background-color: #fff;
+  opacity: 0.75;
+  width: 600px;
+  margin:  30px 0px;
+  padding: 30px 30px;
+}
+
+.content h3 {
+  font-family: 'countrysideregular', cursive;
+  font-size: 50px;
+}
+
+.comment-section {
+margin: 30px 0px;
+padding: 0px auto;
+}
+
+a footer {
+  color: #fafad2;
+  text-align: center;
+}
+
+a:visited {
+text-decoration: none; color:#fafad2;
+}
