@@ -76,11 +76,20 @@ img {
   padding: 0px auto;
 }
 
-a footer {
+a.link {
   color: #fafad2;
   text-align: center;
+  text-decoration: none;
 }
 
-a:visited {
-text-decoration: none; color:#fafad2;
+a.link:visited {
+  text-decoration: none; color: #fafad2; font-weight: normal;
+}
+
+a.link:hover {
+  text-decoration: underline; color: #fafad2; font-weight: normal;
+}
+
+a.link:active {
+  text-decoration: none; color: #fafad2; font-weight: normal;
 }
