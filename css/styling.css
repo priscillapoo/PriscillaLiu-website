@@ -12,16 +12,18 @@ html, body {
   text-align: center;
   color: #fafad2;
   background: url("../images/goldengatesunset.jpg") no-repeat fixed;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 #top {
   font-family: 'countrysideregular', cursive;
   font-size: 72px;
+  margin: 100px auto;
 }
 
 img {
   border: 6px solid white;
+  margin: 25px auto;
 }
 
 .aboutme {
@@ -32,20 +34,21 @@ img {
   background-color: #fff;
   opacity: 0.75;
   width: 600px;
-  margin:  30px 0px;
+  margin:  50px 0px;
   padding: 30px 30px;
 }
 
 .aboutme h3 {
   font-family: 'countrysideregular', cursive;
   font-size: 50px;
+  margin-top: 30px;
 }
 
 .instagramfeed {
   display: inline-block;
   position: relative;
   width: 600px;
-  margin: auto;
+  margin: 50px auto;
   padding: 30px 30px;
 }
 
@@ -54,13 +57,14 @@ img {
   color: #fafad2;
   font-size: 50px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .maps {
   display: inline-block;
   position: relative;
   width: 1000px;
-  margin: auto;
+  margin: 50px auto;
   padding: 30px 30px;
 }
 
@@ -69,11 +73,17 @@ img {
   color: #fafad2;
   font-size: 50px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .comment-section {
+  font-size: 20px;
   margin: 30px 0px;
   padding: 0px auto;
+}
+
+.button {
+  font-size: 20px;
 }
 
 a.link {
